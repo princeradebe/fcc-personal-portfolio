@@ -84,7 +84,7 @@ section {
     font-size: 30rem;
     top: 0rem;
     color: #E9E9E9;
-    opacity: .4;
+    opacity: .6;
 }
 .project__list {
     display: flex;
@@ -94,19 +94,22 @@ section {
     height: 40rem;
     border: black 1px solid;
     margin: 2rem;
-    border-radius: 1rem;
+    border-radius: 5px;
     position: relative;
 }
 .project__link {
     position: absolute;
-    bottom: 2rem;
+    bottom: 0rem;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
     color: white;
-    padding: 1rem 3rem;
-    font-size: 1.4rem;
+    width: 90%;
+    height: 5rem;
+    padding: 1rem 0rem;
+    font-size: 2rem;
     background-color: black;
-    border-radius: 1rem;
+    border-radius: 5px;
 }
 /*------FOOTER-------*/
 footer {
